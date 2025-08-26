@@ -48,7 +48,28 @@ Browse through **all available movies** with details such as **rating, language,
 
 ## ⚙️ Installation & Setup
 
-1. Clone the repository:
+1️⃣ Clone the repository:
    ```bash
    git clone https://github.com/your-username/movie-explorer.git
    cd movie-explorer
+   
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Configure environment variables
+
+Create a .env file in the root directory and add your API key:
+
+REACT_APP_API_KEY=your_api_key_here
+
+4️⃣ Run the app locally
+npm start
+
+
+This will start the development server on http://localhost:3000.
+
+5️⃣ Build for production
+npm run build
+
+
+This will generate optimized production-ready files inside the build/ folder.
